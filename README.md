@@ -32,13 +32,13 @@ uv:
 
 ```shell
 # Show all installable versions
-asdf list-all uv
+asdf list all uv
 
 # Install specific version
 asdf install uv latest
 
 # Set a version globally (on your ~/.tool-versions file)
-asdf global uv latest
+asdf set -u uv latest
 
 # Now uv commands are available
 uv --version
